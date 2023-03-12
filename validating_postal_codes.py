@@ -1,5 +1,5 @@
 import re
-#\b[1-9]{6}\b
+
 regex_integer_in_range = r"\b[1-9][0-9]{5}\b"  # Do not delete 'r'.
 regex_alternating_repetitive_digit_pair = r"(\d)(?=\d\1)"  # Do not delete 'r'.
 
